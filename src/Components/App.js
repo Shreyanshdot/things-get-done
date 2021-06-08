@@ -1,12 +1,20 @@
+import React from 'react';
+import Signup from './SignUp'
 import './App.css';
 
 function App() {
+    
   return (
-    <div className="App">
-     <h1>hey there</h1>
-     <button>sign up</button>
+    
+    <div>
+        <center><Signup/></center>
     </div>
+    //  <button class = 'SignUpButton'>Sign Up</button>
+     
+    
+    
   );
+ 
 }
 
 export default App;
