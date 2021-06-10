@@ -1,13 +1,13 @@
 import React from 'react';
-import Signup from './SignUp'
 import './App.css';
+import Tasks from './Tasks'
 
 function App() {
     
   return (
     
     <div className="App">
-        <center><Signup/></center>
+      <Tasks/>
     </div>
     //  <button class = 'SignUpButton'>Sign Up</button>
      
