@@ -6,7 +6,7 @@ function App() {
     
   return (
     
-    <div>
+    <div className="App">
         <center><Signup/></center>
     </div>
     //  <button class = 'SignUpButton'>Sign Up</button>
