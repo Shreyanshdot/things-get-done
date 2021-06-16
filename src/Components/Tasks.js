@@ -13,12 +13,12 @@ function Tasks() {
     }
 
     return(
-        <div className="body">
-            <h1>Type Your Tasks </h1>
+        <div className="Tasks-area">
+            <h1>Type Your Tasks Here :</h1>
              <div className="Tasks-body">
                 <form action="">
-                   <input type="text"   onInput={CheckInput}/>
-                   <input type="text"   onInput={CheckInput}/>
+                   <input type="textblock1"   onInput={CheckInput}/>
+                   <input type="textblock2" id="textblock2"  onInput={CheckInput}/>
                 </form>
                 </div>
         </div>
