@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tasks.css'
-
+import TasksCompleted from './TasksCompleted';
 
 
 
@@ -21,6 +21,7 @@ function Tasks() {
                    <input type="textblock2" id="textblock2"  onInput={CheckInput}/>
                 </form>
                 </div>
+                <TasksCompleted/>
         </div>
     );
     
