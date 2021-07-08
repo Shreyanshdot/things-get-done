@@ -13,14 +13,19 @@ function Tasks() {
     }
 
     return(
-        <div className="Tasks-area">
-            <h1>Type Your Tasks Here :</h1>
-             <div className="Tasks-body">
-                <form action="">
-                   <input type="textblock1"   onInput={CheckInput}/>
-                   <input type="textblock2" id="textblock2"  onInput={CheckInput}/>
-                </form>
-                </div>
+        <div className="Tasks-card">
+            <h1 className="Tasks-card-label">Type Your Tasks Here :</h1> 
+            <div className="Tasks-body">
+                <div> <form >
+                   
+                   <div className="input">    
+                       <h1 className="task-label">task </h1>
+                       <input type="text" id="textblock1" onInput={CheckInput} size="50"/>
+                   </div>
+
+                     
+                </form> </div>
+         </div>
                 <TasksCompleted/>
         </div>
     );
