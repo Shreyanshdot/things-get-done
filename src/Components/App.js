@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
-import Tasks from './Tasks'
-import Notes from './Notes'
-
+import Tasks from './Tasks';
+import Notes from './Notes';
 
 function App() {
+    
+
   
-  
-  
-    return (
+  return (
     
     <div className="App">
-       <Tasks/>
+       <Tasks   />
+       {/* <TasksCompleted  /> */}
        <Notes/> 
     </div>
-    //  <button class = 'SignUpButton'>Sign Up</button>
+    
      
     
     

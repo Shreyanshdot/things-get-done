@@ -1,10 +1,13 @@
 .Notes-box {
+  background-color: lavender;
   position: absolute;
   margin: auto;
-  right: 170px;
+  right: 35px;
   padding: 20px;
   top: 42px;
   width: 400px;
   height: 600px;
   border: 3px solid #000000ad;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }

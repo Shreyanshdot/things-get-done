@@ -1,0 +1,19 @@
+.taskscompleted-area {
+  position: absolute;
+  background-color: lavender;
+  border: 3px solid #000000ad;
+  padding: 15px;
+  top: 0px;
+  left: 115%;
+  width: 400px;
+  /* height: 600px; */
+}
+.header {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tasks {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}

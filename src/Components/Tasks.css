@@ -1,16 +1,32 @@
-.Tasks-area {
+.Tasks-card {
+  background-color: lavender;
   position: relative;
   /* left: 270px; */
-  left: 20%;
-  padding: 20px;
+  /* left: 20%; */
+  padding: 15px;
   /* margin: auto; */
   width: 400px;
   height: 600px;
   border: 3px solid #000000ad;
 }
-h1 {
+
+.Tasks-card-label {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
-.textblock2 {
-  align-items: center;
+
+.Tasks-body {
+  font-size: 10px;
+}
+
+.input {
+  /* align-items: center; */
+  margin: 1px;
+  text-align: center;
+  border: 3px solid #000000ad;
+}
+
+.task-label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
