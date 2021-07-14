@@ -1,8 +1,7 @@
 .App {
-  /* margin: auto; */
-  /* height: 650px; */
-  /* background-color: azure; */
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: azure; */
   background: -webkit-linear-gradient(to left, #4ca1af, #2c3e50);
-  padding: 25px;
 }

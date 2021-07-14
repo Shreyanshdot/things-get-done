@@ -2,11 +2,11 @@
   position: absolute;
   background-color: lavender;
   border: 3px solid #000000ad;
+  border-radius: 15px;
   padding: 15px;
-  top: 0px;
-  left: 115%;
+  top: 45px;
+  left: 530px;
   width: 400px;
-  /* height: 600px; */
 }
 .header {
   text-align: center;
