@@ -16,6 +16,7 @@
 .Tasks-body {
   font-size: 10px;
   padding: 5px;
+  text-align: center;
 }
 
 .input-field {
@@ -40,4 +41,9 @@ input {
 
 ::placeholder {
   font-family: monospace;
+}
+
+.submit-button {
+  margin: 5px;
+  border-radius: 5px;
 }
