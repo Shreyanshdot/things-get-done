@@ -2,7 +2,7 @@
   background-color: lavender;
   padding: 15px;
   width: 400px;
-  height: 600px;
+  /* height: 600px; */
   border-radius: 15px;
   border: 3px solid #000000ad;
   box-shadow: 10px 10px 40px 12px rgba(37, 36, 36, 0.822);
@@ -15,16 +15,29 @@
 
 .Tasks-body {
   font-size: 10px;
+  padding: 5px;
+}
+
+.input-field {
+  margin: 1px;
+  padding: 10px;
+  border: 3px solid #000000ad;
+  border-radius: 10px;
 }
 
 .task-label {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  padding: 10px;
 }
 
-.input {
-  /* align-items: center; */
-  margin: 1px;
-  text-align: center;
-  border: 3px solid #000000ad;
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 184, 184);
+}
+
+::placeholder {
+  font-family: monospace;
 }

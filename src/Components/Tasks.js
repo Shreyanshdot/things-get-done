@@ -18,9 +18,9 @@ function Tasks() {
             <div className="Tasks-body">
                 <div> <form >
                    
-                   <div className="input">    
-                       <h1 className="task-label">task </h1>
-                       <input type="text" id="textblock1" onInput={CheckInput} size="50"/>
+                   <div className="input-field">    
+                       <h1 className="task-label">Hey there ! </h1>
+                       <input type="text" placeholder="what needs to be done ?" id="textblock1" onInput={CheckInput} size="50"/>
                    </div>
 
                      

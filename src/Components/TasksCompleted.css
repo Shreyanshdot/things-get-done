@@ -9,12 +9,18 @@
   box-shadow: 15px 15px 50px 10px rgba(37, 36, 36, 0.822);
   border-radius: 15px;
 }
-.header {
+.header-text {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tasks {
+  border: 3px solid #000000ad;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 2px;
+}
+
+.text {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
 }

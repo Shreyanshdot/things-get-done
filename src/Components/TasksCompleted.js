@@ -5,9 +5,9 @@ function TasksCompleted(){
     return(
         
         <div className="taskscompleted-area">
-          <h2 className="header"> Tasks List </h2>
+          <h2 className="header-text"> Tasks List </h2>
             <div className="tasks">
-            <h4> Task List </h4>    
+            <h4 className="text"> following is a List of all the tasks you have : </h4>       
             </div>
         </div>
     );
