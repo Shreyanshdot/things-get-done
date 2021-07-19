@@ -1,10 +1,10 @@
 .Tasks-card {
   background-color: lavender;
+  height: 310px;
   padding: 15px;
   width: 400px;
-  /* height: 600px; */
-  border-radius: 15px;
   border: 3px solid #000000ad;
+  border-radius: 15px;
   box-shadow: 10px 10px 40px 12px rgba(37, 36, 36, 0.822);
 }
 
@@ -14,14 +14,12 @@
 }
 
 .Tasks-body {
-  font-size: 10px;
   padding: 5px;
-  text-align: center;
 }
 
 .input-field {
-  margin: 1px;
   padding: 10px;
+  text-align: center;
   border: 3px solid #000000ad;
   border-radius: 10px;
 }
@@ -32,10 +30,10 @@
   padding: 10px;
 }
 
-input {
+input[type="text"] {
   width: 100%;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px solid rgb(185, 184, 184);
 }
 
@@ -45,7 +43,7 @@ input {
 
 .submit-button {
   margin: 5px;
-  width: 50px;
   height: 25px;
+  width: 50px;
   border-radius: 5px;
 }
