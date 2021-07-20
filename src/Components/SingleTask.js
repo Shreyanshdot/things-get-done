@@ -20,12 +20,24 @@ function SingleTask({text,todo,todos,SetTodos}){
 
     }
 
-
+    function DeleteHandler(){
+        SetTodos(todos.filter((el)=>el.id!==todo.id))
+        console.log("Deleted ToDo :"+todo.text);
+    }
 
     return(
         <div className={todo.completed===true?"single-task":''}>
-              <input type="checkbox"  id="checkbox" onClick={CheckboxHandler}/>
-            {text}
+             <div className="flex-div">
+            
+                <div className="main-div"> 
+                  <input type="checkbox"  id="checkbox" onClick={CheckboxHandler}/>
+                 {text}
+                </div>
+                <div className="deletebtn-div">
+                    <button className="delete-button" onClick={DeleteHandler}>-</button>
+                </div>
+            
+             </div>
         </div>
     )
 
