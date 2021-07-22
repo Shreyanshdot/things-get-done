@@ -25,6 +25,9 @@ function Tasks() {
     function SubmitHandler(e){
         
         e.preventDefault();
+
+        if(text!==""){
+
         SetTodos([...todos,{
             text:text,
             completed:false,
@@ -33,7 +36,13 @@ function Tasks() {
         SetText("");
         console.log("submitted");
     }
-    console.log(todos);
+    else{
+        
+        alert("Please Input Something !")
+    }
+}
+        console.log(todos);
+    
     
     
     
@@ -53,7 +62,7 @@ function Tasks() {
                   
                 </form> </div>
              </div>
-             <TasksCompleted todos={todos} SetTodos={SetTodos} settext={sometext} SubmitHandler={SubmitHandler}/> 
+             <TasksCompleted todos={todos} SetTodos={SetTodos} settext={text} SubmitHandler={SubmitHandler}/> 
         </div>
     );
     
