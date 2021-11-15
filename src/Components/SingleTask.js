@@ -21,8 +21,15 @@ function SingleTask({text,todo,todos,SetTodos}){
     }
 
     function DeleteHandler(){
+        if(todo.completed===false){
+            alert("This Task is not yet done !");
+        }
+
+        else{
         SetTodos(todos.filter((el)=>el.id!==todo.id))
         console.log("Deleted ToDo :"+todo.text);
+    
+        }
     }
 
     return(
