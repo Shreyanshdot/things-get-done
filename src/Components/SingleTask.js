@@ -41,6 +41,7 @@ function SingleTask({ text, todo, todos, SetTodos }) {
             console.log("Deleted ToDo :" + todo.text);
 
              }
+             window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
       }
     
 
