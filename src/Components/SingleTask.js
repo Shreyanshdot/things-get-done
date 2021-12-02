@@ -28,20 +28,20 @@ function SingleTask({ text, todo, todos, SetTodos }) {
 
                 todo.completed = true;
                 SetTodos(todos.filter((el) => el.id !== todo.id))
-                    
+                window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
+
                 }          
             
-            // else{
-            //     alert("cancelled");
-            //  }
+                else{
+                alert("Get going !");
+                }
             }
 
         else {
             SetTodos(todos.filter((el) => el.id !== todo.id))
             console.log("Deleted ToDo :" + todo.text);
-
+            window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
              }
-             window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
       }
     
 

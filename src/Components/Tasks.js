@@ -55,7 +55,7 @@ function Tasks() {
                    
                    <div className="input-field">    
                        <h2 className="task-label">Hey there ! </h2>
-                       <input type="text" value={sometext} placeholder="what needs to be done ?"  id="textblock1"  onChange={InputHandler}
+                       <input type="text" autoFocus value={sometext} placeholder="what needs to be done ?"  id="textblock1"  onChange={InputHandler}
                          size="50"/>
                        <button className="submit-button" onClick={SubmitHandler}>+</button>
                    </div>
