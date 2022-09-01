@@ -1,5 +1,5 @@
 import React from 'react';
-import './TasksCompleted.css';
+import "../Styles/TasksCompleted.css";
 import SingleTask from "./SingleTask";
 
 function TasksCompleted({todos,SetTodos})

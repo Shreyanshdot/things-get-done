@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import "../Styles/App.css";
 import Tasks from './Tasks';
 import Notes from './Notes';
 

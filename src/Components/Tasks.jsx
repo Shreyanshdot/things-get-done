@@ -1,11 +1,11 @@
 import React , {useState} from 'react';
-import './Tasks.css';
+import "../Styles/Tasks.css";
 import TasksCompleted from './TasksCompleted';
 
 
 function Tasks() {
     
-    const [text,SetText]=useState(['']);
+    const [text,SetText]=useState("");
     const [todos,SetTodos]=useState([]);
     let sometext = [text];              
     
@@ -26,26 +26,28 @@ function Tasks() {
         
         e.preventDefault();
 
-        if(text!==""){
+        if( text !== "" ){
+            
+            SetTodos([...todos,{
+                text:text,
+                completed:false,
+                id:Math.random()*1000
+            }])
 
-        SetTodos([...todos,{
-            text:text,
-            completed:false,
-            id:Math.random()*1000
-        }])
-        SetText("");
-        console.log("submitted");
+            SetText("");
+            console.log("submitted");
+
+        }
+    
+        else{
+            alert("Please Input Something !")
+        }
+
+
     }
-    else{
-        
-        alert("Please Input Something !")
-    }
-}
-        console.log(todos);
     
-    
-    
-    
+    console.log(todos);
+
 
     return(
         <div className="Tasks-card">

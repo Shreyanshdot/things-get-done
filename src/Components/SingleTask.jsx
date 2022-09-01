@@ -1,5 +1,5 @@
 import React from 'react';
-import "./SingleTask.css";
+import "../Styles/SingleTask.css";
 
 
 function SingleTask({ text, todo, todos, SetTodos }) {
@@ -28,7 +28,7 @@ function SingleTask({ text, todo, todos, SetTodos }) {
 
                 todo.completed = true;
                 SetTodos(todos.filter((el) => el.id !== todo.id))
-                window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
+                setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
 
                 }          
             
@@ -40,8 +40,10 @@ function SingleTask({ text, todo, todos, SetTodos }) {
         else {
             SetTodos(todos.filter((el) => el.id !== todo.id))
             console.log("Deleted ToDo :" + todo.text);
-            window.onload = setTimeout(function(){alert(` Deleted : " ${text} "`);},1000)   // displays alert message after 1 sec.
-             }
+            let popupWin = window.open(' ',' ','width=300,height=300,left=600,top=250');
+            popupWin.document.write( "Deleted ToDo: " + text);
+            setTimeout(function(){ popupWin.close(); },1500);   
+        }
       }
     
 
